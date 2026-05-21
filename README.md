@@ -1,6 +1,8 @@
 # PhonePe Transaction Insights
 An end-to-end Data Engineering and Business Analytics project built using the PhonePe Pulse dataset. This project extracts raw JSON data, transforms it into structured datasets, stores it in a MySQL database, performs SQL-based business analysis, and visualizes insights through an interactive Streamlit dashboard.
 
+The project begins with extracting raw nested JSON data from the PhonePe Pulse GitHub repository. Since the dataset is stored in hierarchical folder structures, Python is used to automate the extraction, parsing, and transformation process. The transformed data is then converted into structured tabular formats using Pandas DataFrames and loaded into a MySQL relational database for efficient storage and querying.
+
 ## Project Overview
 
 The PhonePe Transaction Insights project demonstrates a complete ETL and analytics workflow using real-world digital payment data from the PhonePe Pulse GitHub Repository.
